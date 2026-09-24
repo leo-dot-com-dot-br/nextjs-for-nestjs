@@ -19,13 +19,6 @@ const nextConfig: NextConfig = {
         search: '',
       },
       {
-        protocol: 'https',
-        hostname: 'localhost',
-        port: '3001',
-        pathname: '/**',
-        search: '',
-      },
-      {
         protocol: 'http',
         hostname: 'localhost',
         port: '3001',

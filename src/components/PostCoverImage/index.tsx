@@ -30,6 +30,7 @@ export function PostCoverImage({ imageProps, linkProps }: PostCoverImageProps) {
           'transition',
           imageProps.className,
         )}
+        unoptimized
         alt={imageProps.alt}
       />
     </Link>
