@@ -1,3 +1,5 @@
+'use server';
+
 import { deleteLoginSession } from '@/lib/login/manage-login';
 import { getPublicUserFromApi } from '@/lib/user/api/get-user';
 import {
